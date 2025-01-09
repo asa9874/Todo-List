@@ -1,9 +1,12 @@
+import styles from "./TodoAddButton.module.css"
+
+
 
 function TodoAddButton() {
   
   return (
     <>
-      <button className="todoAddButton">추가하기</button>
+      <button className={styles.todoaddbutton}>추가하기</button>
     </>
   )
 }

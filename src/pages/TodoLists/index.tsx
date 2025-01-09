@@ -1,15 +1,14 @@
-import TodoListContainer from "./components/TodoListContainer"
+import { StrictMode } from "react"
+import MainContainer from "./components/MainContainer"
 
 
 
 function TodoLists() {
   
   return (
-    <div className="todoLists">
-      <p className="mainTitle">TODO 리스트</p>
-      <TodoListContainer></TodoListContainer>
-      <button className="todoAddButton">추가하기</button>
-    </div>
+    <StrictMode>
+      <MainContainer></MainContainer>
+    </StrictMode>
   )
 }
 

@@ -1,0 +1,42 @@
+.todocheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+
+tr {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1px powderblue solid;
+}
+
+tr th:nth-child(1) {
+    width: 20px;
+    margin-left: 10px;
+}
+
+tr th:nth-child(2) {
+    width: 380px;
+    font-family: 'MaplestoryOTFBold';
+    font-size: 20px;
+    text-align: center;
+}
+
+tr th:nth-child(3) {
+    width: 80px;
+}
+
+.tododeletebutton {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: red;
+}
+.todomodifybutton{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: green;
+}
