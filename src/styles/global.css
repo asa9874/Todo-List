@@ -6,22 +6,17 @@
 }
 
 html, body {
-    background-color: rgb(228, 224, 224);
+    background-color: rgb(196, 194, 194);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0; /* 기본 마진 제거 */
+    margin: 0;  
 }
 
-#root {
-    width: 100%;
-    height: 100%;
-}
-
-.mainContainer {
+.todoLists {
     position: relative;
     width: 500px;
     height: 700px;
@@ -100,4 +95,16 @@ tr th:nth-child(3) {
     height: 20px;
     cursor: pointer;
     background-color: green;
+}
+
+
+.todoAddButton{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'MaplestoryOTFBold';
+    cursor: pointer;
+    background-color: rgb(255, 249, 243);
+    border: 1px solid black;
+    border-radius: 10px;
 }
