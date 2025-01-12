@@ -40,3 +40,9 @@ tr th:nth-child(3) {
     cursor: pointer;
     background-color: green;
 }
+
+.todoInput {
+    font-family: 'MaplestoryOTFBold';
+    font-size: 20px;
+    text-align: center;
+}
